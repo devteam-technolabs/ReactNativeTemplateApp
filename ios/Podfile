@@ -1,0 +1,33 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '12.0'
+
+abstract_target 'SkinCare' do
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    :hermes_enabled => false
+  )
+
+  target 'Development' do
+    # Development-specific pods
+  end
+
+  target 'Production' do
+    # Production-specific pods
+  end
+
+  target 'Staging' do
+    # Staging-specific pods
+  end
+
+  if !ENV['CI']
+    use_flipper!({ 'Flipper' => '0.80.0' })
+  end
+
+  post_install do |installer|
+    react_native_post_install(installer)
+  end
+end
