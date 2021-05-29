@@ -70,8 +70,8 @@ For coding styling we decided to go with ESLint and [React Native community's st
 
 ## Developer
 
-[Jayant Sharma](https://bitbucket.org/jayant_yapapp/)
+iTechnolabs Pvt(OPC) ltd
 
 ## Author
 
-[Jayant Sharma](https://bitbucket.org/jayant_yapapp/)
+[Jayant Sharma]
