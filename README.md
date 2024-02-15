@@ -74,4 +74,4 @@ iTechnolabs Pvt(OPC) ltd
 
 ## Author
 
-[Jayant Sharma]
+iTechnolabs
