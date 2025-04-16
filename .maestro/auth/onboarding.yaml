@@ -1,0 +1,8 @@
+appId: ${APP_ID}
+---
+- clearState
+- launchApp
+- assertVisible: 'iTech Starter'
+- assertVisible: "Let's Get Started "
+- tapOn: "Let's Get Started "
+- assertVisible: 'Sign In'

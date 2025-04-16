@@ -5,11 +5,10 @@
 # directive in build.gradle.
 #
 # For more details, see
-# http://developer.android.com/guide/developing/tools/proguard.html
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# react-native-reanimated
+-keep class com.swmansion.reanimated.** { *; }
+-keep class com.facebook.react.turbomodule.** { *; }
 
 # Add any project specific keep options here:
-
--keep class com.skincare.BuildConfig { *; }
--keep class com.facebook.hermes.unicode.** { *; }
--keep class com.facebook.jni.** { *; }
--keep class com.facebook.react.turbomodule.** { *; }
