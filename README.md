@@ -2,7 +2,7 @@
   React Native Template iTech
 </h1>
 
-![expo](~52.0.35) ![react-native](0.76.7)
+![Expo](https://img.shields.io/badge/expo-52.0.35-000020) ![React Native](https://img.shields.io/badge/react--native-0.76.7-blue)
 
 📱 A template for React Native project 🚀, Made for performance first: Expo, TypeScript, TailwindCSS, Husky, Lint-Staged, expo-router, react-query, react-hook-form, I18n.
 
